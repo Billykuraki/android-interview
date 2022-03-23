@@ -1,7 +1,7 @@
 ---
-layout: page
-title: VIZIO Android Take-Home project
 permalink: /android_interview/
+title: VIZIO Android Take-Home project
+author_profile: false
 ---
 ## Hello!
 Thank you for interviewing with VIZIO. This document outlines the guideline you will need to complete the take-home project. You’ll have a week to complete the project. If you have any questions during the process please reach out to your recruiter and we’ll get back to you ASAP.
