@@ -27,11 +27,32 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: username
 github_username:  username
 minimal_mistakes_skin: default
+search: false
+
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
+
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
 
 # Build settings
-theme: minimal-mistakes-jekyll
 plugins:
-  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

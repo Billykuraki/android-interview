@@ -284,14 +284,11 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  http_parser.rb (~> 0.6.0)
-  jekyll-feed
   jekyll-include-cache
-  minima (~> 2.5)
+  jekyll-remote-theme
   minimal-mistakes-jekyll
   tzinfo (~> 1.2)
   tzinfo-data
-  wdm (~> 0.1.1)
   webrick (~> 1.7)
 
 BUNDLED WITH
