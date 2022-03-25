@@ -30,8 +30,7 @@ github_username:  username
 search: false
 
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 
 include: ["_pages"]
