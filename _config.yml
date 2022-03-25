@@ -26,7 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: username
 github_username:  username
-minimal_mistakes_skin: default
+# minimal_mistakes_skin: default
 search: false
 
 markdown: kramdown
@@ -34,18 +34,16 @@ remote_theme: mmistakes/minimal-mistakes
 theme: minimal-mistakes-jekyll
 
 
+include: ["_pages"]
+
 defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   - scope:
       path: "assets/images"
     values:
