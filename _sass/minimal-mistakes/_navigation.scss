@@ -177,13 +177,15 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
-  
+  background: $background-color;
 
   a {
     display: block;
     margin: 0 1rem;
     color: $masthead-link-color;
     text-decoration: none;
+    -webkit-transition: none;
+    transition: none;
 
     &:hover {
       color: $masthead-link-color-hover;
@@ -191,12 +193,17 @@
 
     &.site-logo {
       margin-left: 0;
-      margin-right: 1.25rem;
+      margin-right: 0.5rem;
     }
 
     &.site-title {
       margin-left: 0;
     }
+  }
+
+  img {
+    -webkit-transition: none;
+    transition: none;
   }
 
   &__toggle {

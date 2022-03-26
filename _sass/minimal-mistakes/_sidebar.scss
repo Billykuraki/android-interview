@@ -41,7 +41,7 @@
   }
 
   > * {
-    margin-top: 0;
+    margin-top: 1em;
     margin-bottom: 1em;
   }
 
@@ -89,6 +89,13 @@
       position: sticky;
       top: 2em;
       float: right;
+
+      .toc {
+        .toc__menu {
+          overflow-y: auto;
+          max-height: calc(100vh - 7em);
+        }
+      }
     }
   }
 
