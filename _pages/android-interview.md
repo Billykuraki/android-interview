@@ -12,15 +12,14 @@ Thank you for interviewing with VIZIO. This document outlines the guideline you 
 - Builds a TV show app that shows a list of TV shows from the provided endpoint.
 - The app should display a list that shows all the TV shows returned from the JSON endpoint.
 - Each item in the view should contain a summary of a TV show, including its image, title, and subtitle at a minimum.
-- Make sure to handle the normal variety of errors when querying an endpoint.
-- Unit tests should be provided for the app
+- Make sure to handle the normal variety of states when querying an endpoint. If there are no tv shows return, the app should dispaly empty view instead of empty list.
 - Please do not build any more screens than this list.
 
-## JSON Endpoints (TODO to host JSON Data)
-
-- URL 1
-- URL 2
-- URL 3
+## JSON Endpoints (To Deploy Vizio's github)
+Below endpoints returns a tv shows list, each item in the list represents a tv
+- https://billykuraki.github.io/microsites/assets/data/tvshows.json
+You can also call the empty endpoint to simulate empty list
+- https://billykuraki.github.io/microsites/assets/data/tvshows.empty.json
 
 ## JSON structure
 
