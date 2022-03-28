@@ -7,20 +7,17 @@ header:
 ---
 ## Hello!
 Thank you for interviewing with VIZIO. This document outlines the guideline you will need to complete the take-home project. You’ll have a week to complete the project. If you have any questions during the process please reach out to your recruiter and we’ll get back to you ASAP.
-
 ## Requirement
 - Builds a TV show app that shows a list of TV shows from the provided endpoint.
 - The app should display a list that shows all the TV shows returned from the JSON endpoint.
 - Each item in the view should contain a summary of a TV show, including its image, title, and subtitle at a minimum.
-- Make sure to handle the normal variety of states when querying an endpoint. If there are no tv shows return, the app should dispaly empty view instead of empty list.
+- Make sure to handle the normal variety of states when querying an endpoint. If there are no tv shows returned, the app should display an empty view instead of an empty list.
 - Please do not build any more screens than this list.
-
 ## JSON Endpoints (To Deploy Vizio's github)
-Below endpoints returns a tv shows list, each item in the list represents a tv
+Below endpoints return a TV shows list, each item in the list represents a TV Show
 - https://billykuraki.github.io/microsites/assets/data/tvshows.json
-You can also call the empty endpoint to simulate empty list
-- https://billykuraki.github.io/microsites/assets/data/tvshows.empty.json
-
+You can also call the empty endpoint to simulate an empty list
+- https://billykuraki.github.io/microsites/assets/data/tvshows_empty.json
 ## JSON structure
 
 | Key | Type | Note |
@@ -43,11 +40,9 @@ You can also call the empty endpoint to simulate empty list
       ]
     }
 ```
-
 ## What we are looking for
-
 - Architectural consistency
-- Cleanliness and concise of code
+- Cleanliness and concise code
 - Show us your best strength
-
 # Submitting the project
+Please zip up the project and email it to your recruiter. Be sure to clean unnecessarily build and generated files.
